@@ -71,7 +71,7 @@ renodx::utils::settings::Settings settings = {
         .section = "Tone Mapping",
         .tooltip = "Sets the value of 100% white in nits",
         .min = 48.f,
-        .max = 500.f,
+        .max = 1000.f,
     },
     new renodx::utils::settings::Setting{
         .key = "ToneMapUINits",
@@ -81,7 +81,7 @@ renodx::utils::settings::Settings settings = {
         .section = "Tone Mapping",
         .tooltip = "Sets the brightness of UI and HUD elements in nits",
         .min = 48.f,
-        .max = 500.f,
+        .max = 1000.f,
     },
     new renodx::utils::settings::Setting{
         .key = "GammaCorrection",
